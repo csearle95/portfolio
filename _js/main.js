@@ -15,6 +15,8 @@ const dataFilter = '[data-filter]';
 const portfolioData = '[data-item]';
 
 const root = document.documentElement;
+
+/*
 //portfolio data array
 const portfolioArray = [
     {
@@ -24,6 +26,7 @@ const portfolioArray = [
     },
     // Add more portfolio items as needed
 ];
+*/
 
 //theme
 const toggleTheme = document.querySelector(themeTab);
@@ -129,9 +132,10 @@ for (const elm of closeModal) {
     })
 }
 
+/*
 // Create a function to generate the portfolio cards
 function generatePortfolioCards(portfolioData) {
-    var portfolioContainer = document.getElementById("portfolio-container");
+    var portfolioContainer = document.getElementById("portfolio-grid");
 
     // Iterate over the portfolio data array
     for (var i = 0; i < portfolioData.length; i++) {
@@ -173,3 +177,4 @@ function generatePortfolioCards(portfolioData) {
 
   // Call the function to generate portfolio cards using the portfolioArray
 generatePortfolioCards(portfolioArray);
+*/
